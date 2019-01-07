@@ -1,0 +1,52 @@
+
+.card{
+    width:300px;
+    height: 300px;
+    position:relative;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    min-width:0;
+    word-wrap:break-word;
+    background-color:#fff;
+    background-clip:border-box;
+    border: 5px solid #8190A5;
+   
+}
+
+.card-body{
+    margin: 10px;
+}
+
+.card-body h1{
+    color: #47525E;
+    font-family: Lato;
+    text-align: left;
+}
+
+#card-monitored{
+    color: #47525E;
+    font-family: Lato;
+}
+#card-normal{
+    color: #2B6A1F;
+    font-family: Lato;
+}
+
+#card-muted{
+    color: #969FAA;
+    font-family: Lato;
+    text-align: left;
+}
+
+#card-alerts{
+     color: #F7070C;
+     font-family: Lato;
+     text-align: left;
+}
+
+#card-warnings{
+    color: #FFBA5C;
+    font-family: Lato;
+}
